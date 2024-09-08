@@ -68,7 +68,7 @@ class CameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate {
             print("ユーザーが認証されていません")
             return
         }
-
+        
         let db = Firestore.firestore()
         let randomCollectionID = UUID().uuidString
         do {

@@ -14,15 +14,10 @@ struct ContentView: View {
     @State private var photoDataArray: [PhotoData] = []
     
     var body: some View {
-//        MapView(photoDataArray: $photoDataArray)
-//            .edgesIgnoringSafeArea(.all)
-//            .onAppear {
-//                mapViewModel.fetchPhotoDataFromFirestore { fetchedData in
-//                    self.photoDataArray = fetchedData
-//                }
-//            }
-        AllPhotoView()
-        CameraView(camera: .init(), locationViewModel: .init())
+        ZStack {
+            WavyGradientBackground()
+            AllPhotoView()
+        }
     }
 }
 

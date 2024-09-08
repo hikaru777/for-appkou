@@ -31,6 +31,7 @@
 		5D8790EF2C8CE71D0094BFBC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790EE2C8CE71D0094BFBC /* Kingfisher */; };
 		5D8790F12C8CE9900094BFBC /* AsyncCompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790F02C8CE9900094BFBC /* AsyncCompactMap.swift */; };
 		5D8790F42C8D0A3B0094BFBC /* AllPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */; };
+		5D8790F62C8E2FC70094BFBC /* AnimatedGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790F52C8E2FC70094BFBC /* AnimatedGradientBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		5D8790EB2C8B7A7A0094BFBC /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		5D8790F02C8CE9900094BFBC /* AsyncCompactMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncCompactMap.swift; sourceTree = "<group>"; };
 		5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPhotoView.swift; sourceTree = "<group>"; };
+		5D8790F52C8E2FC70094BFBC /* AnimatedGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */,
+				5D8790F52C8E2FC70094BFBC /* AnimatedGradientBackground.swift */,
 			);
 			path = AllPhotoViewGroup;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				5D8790EA2C8B78CB0094BFBC /* MapViewModel.swift in Sources */,
 				5D8790CA2C89F5CB0094BFBC /* CameraModel.swift in Sources */,
 				5D8790B62C88619A0094BFBC /* ContentView.swift in Sources */,
+				5D8790F62C8E2FC70094BFBC /* AnimatedGradientBackground.swift in Sources */,
 				5D8790C62C89ECF30094BFBC /* CameraView.swift in Sources */,
 				5D8790F42C8D0A3B0094BFBC /* AllPhotoView.swift in Sources */,
 				5D8790B42C88619A0094BFBC /* HisabisaShaderApp.swift in Sources */,

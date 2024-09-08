@@ -10,6 +10,7 @@ import MapKit
 
 struct CameraView: View {
     
+    @Environment(\.dismiss) private var dismiss
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 35.658581, longitude: 139.745433),  // 東京タワーの座標
         span: MKCoordinateSpan(latitudeDelta: 0.002, longitudeDelta: 0.002)  // 地図のズームレベル
@@ -32,6 +33,20 @@ struct CameraView: View {
                 }
             
             VStack {
+                HStack {
+                    Button {
+                        dismiss()
+                    } label: {
+                        Image(systemName: "x.circle.fill")
+                            .resizable()
+                            .renderingMode(.original)
+                            .foregroundStyle(.black, .white)
+                            .frame(width: 35, height: 35)
+                    }
+                    .padding(5)
+                    .padding(.leading, 10)
+                    Spacer()
+                }
                 Spacer()
                 
                 // 撮影ボタン
@@ -48,24 +63,8 @@ struct CameraView: View {
                         .frame(width: 80, height: 80)
                         .padding(.bottom, 30)
                 }
-                
-                // 地図を表示するリンク
-                NavigationLink(destination: MapView(mapViewModel: .init(), region: $region, photoDataArray: $photoDataArray)) {
-                    Text("地図を表示")
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                }
-                .padding(.bottom, 20)
             }
         }
-        .onChange(of: LocationViewModel.shared.location, perform: {_ in
-            region = MKCoordinateRegion(
-                center: CLLocationCoordinate2D(latitude: LocationViewModel.shared.location!.coordinate.latitude, longitude: LocationViewModel.shared.location!.coordinate.longitude),  // 東京タワーの座標
-                span: MKCoordinateSpan(latitudeDelta: 0.002, longitudeDelta: 0.002)  // 地図のズームレベル
-            )
-        })
         .onAppear {
             locationViewModel.checkLocationAuthorizationStatus()
             camera.checkCameraPermission()

@@ -60,9 +60,9 @@ struct MapView: UIViewRepresentable {
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
         if let location = LocationViewModel.shared.location {
-                    region.center = location.coordinate
-                    uiView.setRegion(region, animated: true)
-                }
+            region.center = location.coordinate
+            uiView.setRegion(region, animated: true)
+        }
     }
     
     func makeCoordinator() -> Coordinator {
