@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
+    
+    @StateObject private var mapViewModel = MapViewModel()
+    @State private var photoDataArray: [PhotoData] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+//        MapView(photoDataArray: $photoDataArray)
+//            .edgesIgnoringSafeArea(.all)
+//            .onAppear {
+//                mapViewModel.fetchPhotoDataFromFirestore { fetchedData in
+//                    self.photoDataArray = fetchedData
+//                }
+//            }
+        AllPhotoView()
+        CameraView(camera: .init(), locationViewModel: .init())
     }
 }
 

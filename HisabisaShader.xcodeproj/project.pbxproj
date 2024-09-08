@@ -11,6 +11,26 @@
 		5D8790B62C88619A0094BFBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790B52C88619A0094BFBC /* ContentView.swift */; };
 		5D8790B82C88619C0094BFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8790B72C88619C0094BFBC /* Assets.xcassets */; };
 		5D8790BB2C88619C0094BFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8790BA2C88619C0094BFBC /* Preview Assets.xcassets */; };
+		5D8790C22C8861C40094BFBC /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790C12C8861C40094BFBC /* Shader.metal */; };
+		5D8790C62C89ECF30094BFBC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790C52C89ECF30094BFBC /* CameraView.swift */; };
+		5D8790CA2C89F5CB0094BFBC /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790C92C89F5CB0094BFBC /* CameraModel.swift */; };
+		5D8790CE2C8A20AB0094BFBC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790CD2C8A20AB0094BFBC /* FirebaseAuth */; };
+		5D8790D02C8A20AB0094BFBC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790CF2C8A20AB0094BFBC /* FirebaseDatabase */; };
+		5D8790D22C8A20AB0094BFBC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790D12C8A20AB0094BFBC /* FirebaseFirestore */; };
+		5D8790D42C8A20AB0094BFBC /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790D32C8A20AB0094BFBC /* FirebaseFunctions */; };
+		5D8790D62C8A20AB0094BFBC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790D52C8A20AB0094BFBC /* FirebaseStorage */; };
+		5D8790D82C8A21A60094BFBC /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790D72C8A21A60094BFBC /* FirebaseClient.swift */; };
+		5D8790DA2C8A232A0094BFBC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790D92C8A232A0094BFBC /* Models.swift */; };
+		5D8790DC2C8A40620094BFBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D8790DB2C8A40620094BFBC /* GoogleService-Info.plist */; };
+		5D8790DF2C8AF9C30094BFBC /* GeohashKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790DE2C8AF9C30094BFBC /* GeohashKit */; };
+		5D8790E12C8AFF000094BFBC /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790E02C8AFF000094BFBC /* LocationViewModel.swift */; };
+		5D8790E32C8AFFA40094BFBC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790E22C8AFFA40094BFBC /* FirebaseAnalytics */; };
+		5D8790E82C8B78BF0094BFBC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790E72C8B78BF0094BFBC /* MapView.swift */; };
+		5D8790EA2C8B78CB0094BFBC /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790E92C8B78CB0094BFBC /* MapViewModel.swift */; };
+		5D8790EC2C8B7A7A0094BFBC /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790EB2C8B7A7A0094BFBC /* CustomAnnotation.swift */; };
+		5D8790EF2C8CE71D0094BFBC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8790EE2C8CE71D0094BFBC /* Kingfisher */; };
+		5D8790F12C8CE9900094BFBC /* AsyncCompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790F02C8CE9900094BFBC /* AsyncCompactMap.swift */; };
+		5D8790F42C8D0A3B0094BFBC /* AllPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +39,19 @@
 		5D8790B52C88619A0094BFBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D8790B72C88619C0094BFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D8790BA2C88619C0094BFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D8790C12C8861C40094BFBC /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		5D8790C52C89ECF30094BFBC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5D8790C72C89F2260094BFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5D8790C92C89F5CB0094BFBC /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		5D8790D72C8A21A60094BFBC /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
+		5D8790D92C8A232A0094BFBC /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5D8790DB2C8A40620094BFBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D8790E02C8AFF000094BFBC /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		5D8790E72C8B78BF0094BFBC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5D8790E92C8B78CB0094BFBC /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		5D8790EB2C8B7A7A0094BFBC /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		5D8790F02C8CE9900094BFBC /* AsyncCompactMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncCompactMap.swift; sourceTree = "<group>"; };
+		5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8790E32C8AFFA40094BFBC /* FirebaseAnalytics in Frameworks */,
+				5D8790D02C8A20AB0094BFBC /* FirebaseDatabase in Frameworks */,
+				5D8790DF2C8AF9C30094BFBC /* GeohashKit in Frameworks */,
+				5D8790CE2C8A20AB0094BFBC /* FirebaseAuth in Frameworks */,
+				5D8790EF2C8CE71D0094BFBC /* Kingfisher in Frameworks */,
+				5D8790D22C8A20AB0094BFBC /* FirebaseFirestore in Frameworks */,
+				5D8790D62C8A20AB0094BFBC /* FirebaseStorage in Frameworks */,
+				5D8790D42C8A20AB0094BFBC /* FirebaseFunctions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +78,7 @@
 			children = (
 				5D8790B22C88619A0094BFBC /* HisabisaShader */,
 				5D8790B12C88619A0094BFBC /* Products */,
+				5D8790CC2C8A20AB0094BFBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +93,16 @@
 		5D8790B22C88619A0094BFBC /* HisabisaShader */ = {
 			isa = PBXGroup;
 			children = (
+				5D8790C72C89F2260094BFBC /* Info.plist */,
 				5D8790B32C88619A0094BFBC /* HisabisaShaderApp.swift */,
 				5D8790B52C88619A0094BFBC /* ContentView.swift */,
+				5D8790D72C8A21A60094BFBC /* FirebaseClient.swift */,
+				5D8790D92C8A232A0094BFBC /* Models.swift */,
+				5D8790F02C8CE9900094BFBC /* AsyncCompactMap.swift */,
+				5D8790F22C8D0A180094BFBC /* AllPhotoViewGroup */,
+				5D8790C82C89F5AA0094BFBC /* CameraViewGroup */,
+				5D8790E42C8B789B0094BFBC /* MapViewGroup */,
+				5D8790C12C8861C40094BFBC /* Shader.metal */,
 				5D8790B72C88619C0094BFBC /* Assets.xcassets */,
 				5D8790B92C88619C0094BFBC /* Preview Content */,
 			);
@@ -62,9 +112,45 @@
 		5D8790B92C88619C0094BFBC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5D8790DB2C8A40620094BFBC /* GoogleService-Info.plist */,
 				5D8790BA2C88619C0094BFBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D8790C82C89F5AA0094BFBC /* CameraViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5D8790C52C89ECF30094BFBC /* CameraView.swift */,
+				5D8790C92C89F5CB0094BFBC /* CameraModel.swift */,
+				5D8790E02C8AFF000094BFBC /* LocationViewModel.swift */,
+			);
+			path = CameraViewGroup;
+			sourceTree = "<group>";
+		};
+		5D8790CC2C8A20AB0094BFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D8790E42C8B789B0094BFBC /* MapViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5D8790E72C8B78BF0094BFBC /* MapView.swift */,
+				5D8790E92C8B78CB0094BFBC /* MapViewModel.swift */,
+				5D8790EB2C8B7A7A0094BFBC /* CustomAnnotation.swift */,
+			);
+			path = MapViewGroup;
+			sourceTree = "<group>";
+		};
+		5D8790F22C8D0A180094BFBC /* AllPhotoViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5D8790F32C8D0A3B0094BFBC /* AllPhotoView.swift */,
+			);
+			path = AllPhotoViewGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,16 @@
 			dependencies = (
 			);
 			name = HisabisaShader;
+			packageProductDependencies = (
+				5D8790CD2C8A20AB0094BFBC /* FirebaseAuth */,
+				5D8790CF2C8A20AB0094BFBC /* FirebaseDatabase */,
+				5D8790D12C8A20AB0094BFBC /* FirebaseFirestore */,
+				5D8790D32C8A20AB0094BFBC /* FirebaseFunctions */,
+				5D8790D52C8A20AB0094BFBC /* FirebaseStorage */,
+				5D8790DE2C8AF9C30094BFBC /* GeohashKit */,
+				5D8790E22C8AFFA40094BFBC /* FirebaseAnalytics */,
+				5D8790EE2C8CE71D0094BFBC /* Kingfisher */,
+			);
 			productName = HisabisaShader;
 			productReference = 5D8790B02C88619A0094BFBC /* HisabisaShader.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +207,11 @@
 				Base,
 			);
 			mainGroup = 5D8790A72C88619A0094BFBC;
+			packageReferences = (
+				5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5D8790DD2C8AF9C30094BFBC /* XCRemoteSwiftPackageReference "GeohashKit" */,
+				5D8790ED2C8CE71D0094BFBC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 5D8790B12C88619A0094BFBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8790BB2C88619C0094BFBC /* Preview Assets.xcassets in Resources */,
+				5D8790DC2C8A40620094BFBC /* GoogleService-Info.plist in Resources */,
 				5D8790B82C88619C0094BFBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8790C22C8861C40094BFBC /* Shader.metal in Sources */,
+				5D8790EA2C8B78CB0094BFBC /* MapViewModel.swift in Sources */,
+				5D8790CA2C89F5CB0094BFBC /* CameraModel.swift in Sources */,
 				5D8790B62C88619A0094BFBC /* ContentView.swift in Sources */,
+				5D8790C62C89ECF30094BFBC /* CameraView.swift in Sources */,
+				5D8790F42C8D0A3B0094BFBC /* AllPhotoView.swift in Sources */,
 				5D8790B42C88619A0094BFBC /* HisabisaShaderApp.swift in Sources */,
+				5D8790EC2C8B7A7A0094BFBC /* CustomAnnotation.swift in Sources */,
+				5D8790F12C8CE9900094BFBC /* AsyncCompactMap.swift in Sources */,
+				5D8790D82C8A21A60094BFBC /* FirebaseClient.swift in Sources */,
+				5D8790DA2C8A232A0094BFBC /* Models.swift in Sources */,
+				5D8790E82C8B78BF0094BFBC /* MapView.swift in Sources */,
+				5D8790E12C8AFF000094BFBC /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +388,14 @@
 				DEVELOPMENT_TEAM = 8VQ7U9Z9U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HisabisaShader/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するのに使います。";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常におよび使用中の位置情報を利用します";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "バックグラウンドでも位置情報を使用します";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリは位置情報を使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "写真を保存します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +425,14 @@
 				DEVELOPMENT_TEAM = 8VQ7U9Z9U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HisabisaShader/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するのに使います。";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常におよび使用中の位置情報を利用します";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "バックグラウンドでも位置情報を使用します";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリは位置情報を使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "写真を保存します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +473,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+		5D8790DD2C8AF9C30094BFBC /* XCRemoteSwiftPackageReference "GeohashKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ualch9/GeohashKit?fbclid=IwAR3PoUqA4TeyGFNieRViTuNBHIG9jvdAyZ_zx6aLSXwojDednU3iR41Vb8c";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5D8790ED2C8CE71D0094BFBC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher?fbclid=IwAR16YVgx8W_MtqBbW4NpgGk-3TfDsOMYXwImqfKhhNl78xim5ZZnd6Xnv2U";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D8790CD2C8A20AB0094BFBC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5D8790CF2C8A20AB0094BFBC /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5D8790D12C8A20AB0094BFBC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5D8790D32C8A20AB0094BFBC /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		5D8790D52C8A20AB0094BFBC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		5D8790DE2C8AF9C30094BFBC /* GeohashKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790DD2C8AF9C30094BFBC /* XCRemoteSwiftPackageReference "GeohashKit" */;
+			productName = GeohashKit;
+		};
+		5D8790E22C8AFFA40094BFBC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790CB2C8A1CED0094BFBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5D8790EE2C8CE71D0094BFBC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8790ED2C8CE71D0094BFBC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D8790A82C88619A0094BFBC /* Project object */;
 }
